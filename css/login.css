@@ -1,0 +1,26 @@
+body{
+    position: relative;
+}
+input,
+label{
+    margin-top: 10px;
+}
+
+.form-box
+{
+    position: absolute;
+    top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+border: 1px solid black;
+text-align: center;
+padding: 10px;
+}
+
+.submit-button:hover{
+background-color: rgb(254, 2, 2);
+}
+.btn-margin
+{
+    margin-top: 10px;
+}

@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/register.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1><center>Registration Form</center></h1><br><br><br><br>
+      <p class="error-message text-danger"></p>
+      <form class="form-horizontal" method="post">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">UserName</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="username"
+              id="username"
+              required />
+          </div>
+        </div><div class="form-group"><br>
+          <label class="control-label col-sm-2" for="email">Email</label>
+          <div class="col-sm-10">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+              required />
+          </div>
+        </div><br>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">password</label>
+          <div class="col-sm-10">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="password"
+              id="password"
+              required />
+          </div>
+        </div><br>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email"
+            >confirm password</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="confirm password"
+              id="cpassword"
+              required />
+          </div>
+        </div><br>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Mobile No</label>
+          <div class="col-sm-10">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Enter MobileNumber"
+              id="mobile"
+              required />
+          </div>
+        </div><br><br>
+        <div class="form-group"><center>
+          <div class="col-sm-offset-2 col-sm-10">
+            <br />
+            <button type="submit" class="btn btn-danger btn-action">
+              Register
+            </button>
+            <a href="login.html" class="btn btn-info">Login</a>
+          </div>
+        </div>
+      </form>
+    </div></center>
+  </body>
+  <script src="js/register.js"></script>
+</html>
